@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex,Gird,Poisition</title>
+</head>
+<body>
+    <header>
+
+      <!--Phần navbar-->
+
+        <div class="header">
+         <div id="title">ADVENTURE</div>
+        
+        <div id="icon"></div>
+        <div id="sidebar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Moutain</a></li>
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+         </div>
+        </div>
+
+      <!--Phần Slideshow-->
+
+      <div class="slideshow">
+        <div class="slide active">
+            <div class="box_images">
+              <div id="border_box"></div>
+              <img  src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/8010a1057a9559cea59159b0/1357b5c09af89a5c7af33f455fc31a0d.jpg" alt="Images 1">
+              <div id="ordinal">01</div>
+            </div>
+            <div class="box_infor">
+              <h2>Mountain Hiking Tours</h2>
+              <p>We organizes all sort of mountain hiking tours all year round: half day<br> and one day hike from Turin, weekend hikes, long trekking,<br> easy comfortable tours and snowshoeing in winter.</p>
+              <button>Start Now</button>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="box_images">
+              <div id="border_box"></div>
+              <img src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/fc95a1a324a45692beae548a/aecaa55caf5d1d28fcdfe0157073cc30.jpg" alt="Images 2">
+              <div id="ordinal">02</div>
+              </div>
+              <div class="box_infor">
+                <h2>Explore our Hiking Areas</h2>
+                <p>We organizes all sort of mountain hiking tours all year round: half day<br> and one day hike from Turin, weekend hikes, long trekking,<br> easy comfortable tours and snowshoeing in winter.</p>
+                <button>Start Now</button>
+              </div>
+            </div>
+            
+            <div id="pre" onclick="pre()"> < </div>
+            <div id="next" onclick="next()"> ></div>
+        </div>
+      </div>
+      <!--Phần flex-->
+
+      <div class="flex">
+        <div class="flex_logo ">
+          <i class="fa fa-shoe-prints"></i>
+          <div class="content">
+            <h3>TOURS</h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit nullam<br> nunc justo sagittis suscipit ultrices.</p>
+          </div>
+        </div>
+        <div class="flex_logo ">
+          <i class="fa fa-mountains" ></i>
+          <div class="content">
+            <h3>ADVENTURE</h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit nullam <br>nunc justo sagittis suscipit ultrices.</p>
+          </div>
+        </div>
+        <div class="flex_logo ">
+          <i class="fa fa-photo-video"></i>
+          <div class="content">
+            <h3>GALLERY</h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit nullam <br> nunc justo sagittis suscipit ultrices.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!--Phần Poisition-->
+      
+
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
