@@ -375,6 +375,7 @@ font-size: 21px;
   text-decoration: underline;
   transition: 0.25s;
   padding-top: 20px;
+  transition: 0.25s;
 }
 .text #learn:hover{
   color: #19c8e7;
@@ -456,9 +457,9 @@ font-size: 21px;
 .travel_images #clound{
   position: absolute;
   width: 350px;
-  height: 450px;
+  height: 475px;
   margin-top: -350px;
-  margin-left: 530px;
+  margin-left: 550px;
 }
 .travel_form{
   position: absolute;
@@ -521,5 +522,5 @@ footer span a{
   transition: 0.25s;
 }
 footer span a:hover{
-  color: #ff3838;
+  color: #188120;
 }
